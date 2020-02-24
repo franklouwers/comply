@@ -11,11 +11,11 @@ assets: $(THEME_SOURCES)
 comply: assets $(GO_SOURCES)
 	@# $(eval VERSION := $(shell git describe --tags --always --dirty="-dev"))
 	@# $(eval LDFLAGS := -ldflags='-X "github.com/strongdm/comply/internal/cli.Version=$(VERSION)"')
-	go build $(LDFLAGS) github.com/strongdm/comply
+	go build $(LDFLAGS)
 
 dist: clean
 	$(eval VERSION := $(shell git describe --tags --always --dirty="-dev"))
-	$(eval LDFLAGS := -ldflags='-X "github.com/strongdm/comply/internal/cli.Version=$(VERSION)"')
+	$(eval LDFLAGS := )
 	mkdir dist
 	echo $(VERSION)
 	GOOS=darwin GOARCH=amd64 CGO_ENABLED=0 go build -gcflags=-trimpath=$(GOPATH) -asmflags=-trimpath=$(GOPATH) -ldflags '-extldflags "-static"' $(LDFLAGS) -o dist/comply-$(VERSION)-darwin-amd64 .
@@ -52,8 +52,8 @@ else
 endif
 
 docker:
-	cd build && docker build -t strongdm/pandoc .
-	docker push strongdm/pandoc
+	cd build && docker build -t franklouwers/comply-pandoc .
+	docker push franklouwers/comply-pandoc
 
 cleanse:
 	git checkout --orphan newbranch
