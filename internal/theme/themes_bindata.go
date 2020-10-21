@@ -58,11 +58,11 @@
 package theme
 
 import (
-	"github.com/elazarl/go-bindata-assetfs"
 	"bytes"
 	"compress/gzip"
 	"crypto/sha256"
 	"fmt"
+	"github.com/elazarl/go-bindata-assetfs"
 	"io"
 	"io/ioutil"
 	"os"
@@ -138,8 +138,8 @@ func complyBlankReadmeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-blank/README.md", size: 1972, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x82, 0xb5, 0x3, 0x8f, 0x84, 0x33, 0x9e, 0x1c, 0x62, 0x96, 0x7e, 0x28, 0xe3, 0xac, 0x9e, 0x3d, 0x73, 0x80, 0x17, 0x1a, 0x14, 0xb7, 0xf6, 0xfd, 0x1, 0x2b, 0x79, 0xfe, 0xf7, 0x5, 0xbe, 0x55}}
+	info := bindataFileInfo{name: "comply-blank/README.md", size: 1965, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -158,8 +158,8 @@ func complyBlankTodoMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-blank/TODO.md", size: 1429, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x70, 0xe1, 0x52, 0x7a, 0xa2, 0xd9, 0x1a, 0x3b, 0x44, 0x4c, 0x7c, 0xf0, 0x5b, 0x1f, 0x21, 0x1f, 0xa8, 0x8f, 0xbf, 0x94, 0x9c, 0x12, 0xa1, 0x43, 0xf6, 0xd, 0xfe, 0x22, 0x94, 0x50, 0xac, 0x8b}}
+	info := bindataFileInfo{name: "comply-blank/TODO.md", size: 1429, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -178,8 +178,8 @@ func complyBlankNarrativesGitkeep() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-blank/narratives/.gitkeep", size: 0, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xe3, 0xb0, 0xc4, 0x42, 0x98, 0xfc, 0x1c, 0x14, 0x9a, 0xfb, 0xf4, 0xc8, 0x99, 0x6f, 0xb9, 0x24, 0x27, 0xae, 0x41, 0xe4, 0x64, 0x9b, 0x93, 0x4c, 0xa4, 0x95, 0x99, 0x1b, 0x78, 0x52, 0xb8, 0x55}}
+	info := bindataFileInfo{name: "comply-blank/narratives/.gitkeep", size: 0, mode: os.FileMode(420), modTime: time.Unix(1525909140, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -198,8 +198,8 @@ func complyBlankPoliciesGitkeep() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-blank/policies/.gitkeep", size: 0, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xe3, 0xb0, 0xc4, 0x42, 0x98, 0xfc, 0x1c, 0x14, 0x9a, 0xfb, 0xf4, 0xc8, 0x99, 0x6f, 0xb9, 0x24, 0x27, 0xae, 0x41, 0xe4, 0x64, 0x9b, 0x93, 0x4c, 0xa4, 0x95, 0x99, 0x1b, 0x78, 0x52, 0xb8, 0x55}}
+	info := bindataFileInfo{name: "comply-blank/policies/.gitkeep", size: 0, mode: os.FileMode(420), modTime: time.Unix(1525909140, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -218,8 +218,8 @@ func complyBlankProceduresGitkeep() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-blank/procedures/.gitkeep", size: 0, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xe3, 0xb0, 0xc4, 0x42, 0x98, 0xfc, 0x1c, 0x14, 0x9a, 0xfb, 0xf4, 0xc8, 0x99, 0x6f, 0xb9, 0x24, 0x27, 0xae, 0x41, 0xe4, 0x64, 0x9b, 0x93, 0x4c, 0xa4, 0x95, 0x99, 0x1b, 0x78, 0x52, 0xb8, 0x55}}
+	info := bindataFileInfo{name: "comply-blank/procedures/.gitkeep", size: 0, mode: os.FileMode(420), modTime: time.Unix(1525909140, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -238,8 +238,8 @@ func complyBlankStandardsGitkeep() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-blank/standards/.gitkeep", size: 0, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xe3, 0xb0, 0xc4, 0x42, 0x98, 0xfc, 0x1c, 0x14, 0x9a, 0xfb, 0xf4, 0xc8, 0x99, 0x6f, 0xb9, 0x24, 0x27, 0xae, 0x41, 0xe4, 0x64, 0x9b, 0x93, 0x4c, 0xa4, 0x95, 0x99, 0x1b, 0x78, 0x52, 0xb8, 0x55}}
+	info := bindataFileInfo{name: "comply-blank/standards/.gitkeep", size: 0, mode: os.FileMode(420), modTime: time.Unix(1525909140, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -258,8 +258,8 @@ func complyBlankTemplatesGitkeep() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-blank/templates/.gitkeep", size: 0, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xe3, 0xb0, 0xc4, 0x42, 0x98, 0xfc, 0x1c, 0x14, 0x9a, 0xfb, 0xf4, 0xc8, 0x99, 0x6f, 0xb9, 0x24, 0x27, 0xae, 0x41, 0xe4, 0x64, 0x9b, 0x93, 0x4c, 0xa4, 0x95, 0x99, 0x1b, 0x78, 0x52, 0xb8, 0x55}}
+	info := bindataFileInfo{name: "comply-blank/templates/.gitkeep", size: 0, mode: os.FileMode(420), modTime: time.Unix(1525909140, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -278,8 +278,8 @@ func complyBlankTemplatesDefaultLatex() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-blank/templates/default.latex", size: 7649, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xbf, 0xb8, 0x54, 0xed, 0xe0, 0x8e, 0xe5, 0xde, 0x10, 0x5c, 0xc3, 0x8e, 0x6f, 0x2e, 0x18, 0x67, 0x6f, 0x81, 0x9d, 0x38, 0xfa, 0x1a, 0xf8, 0x4e, 0x9f, 0x1b, 0x1a, 0xab, 0x44, 0x69, 0x35, 0xb1}}
+	info := bindataFileInfo{name: "comply-blank/templates/default.latex", size: 7649, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -298,8 +298,8 @@ func complyBlankTemplatesIndexAce() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-blank/templates/index.ace", size: 8250, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xb2, 0xb1, 0x7d, 0x49, 0xff, 0x61, 0x53, 0xf9, 0x77, 0x7f, 0xc8, 0x6b, 0x92, 0x27, 0xa, 0x82, 0x3a, 0xbe, 0x97, 0x76, 0x2c, 0xe7, 0xf3, 0xbd, 0x20, 0x2b, 0x4d, 0x1a, 0xbb, 0x56, 0x8e, 0x50}}
+	info := bindataFileInfo{name: "comply-blank/templates/index.ace", size: 7596, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -318,8 +318,8 @@ func complySoc2ReadmeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/README.md", size: 2559, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x2c, 0x75, 0xc6, 0x98, 0x31, 0x7d, 0x7b, 0x36, 0x66, 0xb0, 0xab, 0xed, 0x2f, 0x32, 0x79, 0x6b, 0x62, 0x42, 0xb7, 0x8a, 0x3d, 0x47, 0xb8, 0xbb, 0x5d, 0x32, 0x2b, 0x88, 0x3, 0xe0, 0x51, 0x37}}
+	info := bindataFileInfo{name: "comply-soc2/README.md", size: 1965, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -338,8 +338,8 @@ func complySoc2TodoMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/TODO.md", size: 1429, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x70, 0xe1, 0x52, 0x7a, 0xa2, 0xd9, 0x1a, 0x3b, 0x44, 0x4c, 0x7c, 0xf0, 0x5b, 0x1f, 0x21, 0x1f, 0xa8, 0x8f, 0xbf, 0x94, 0x9c, 0x12, 0xa1, 0x43, 0xf6, 0xd, 0xfe, 0x22, 0x94, 0x50, 0xac, 0x8b}}
+	info := bindataFileInfo{name: "comply-soc2/TODO.md", size: 1429, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -358,8 +358,8 @@ func complySoc2NarrativesReadmeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/narratives/README.md", size: 96, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xb7, 0x91, 0x3e, 0x43, 0x2b, 0xd3, 0x1d, 0x29, 0x9a, 0x32, 0x7f, 0x54, 0x67, 0x81, 0x47, 0xa, 0x1d, 0x1d, 0xfa, 0xe0, 0x52, 0x74, 0xa1, 0x15, 0xb6, 0xcf, 0x89, 0x1c, 0x1e, 0x83, 0x85, 0x2c}}
+	info := bindataFileInfo{name: "comply-soc2/narratives/README.md", size: 96, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -378,8 +378,8 @@ func complySoc2NarrativesControlMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/narratives/control.md", size: 3339, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xca, 0xd0, 0x77, 0x17, 0xe9, 0xc0, 0x43, 0x1b, 0x6e, 0xd3, 0x37, 0x6c, 0xb9, 0xb5, 0x70, 0x3d, 0x16, 0x3, 0x28, 0x9f, 0x9b, 0xd2, 0x25, 0x6e, 0x8d, 0x3a, 0x21, 0x90, 0xc8, 0x25, 0xf4, 0xa3}}
+	info := bindataFileInfo{name: "comply-soc2/narratives/control.md", size: 3325, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -398,8 +398,8 @@ func complySoc2NarrativesOrganizationalMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/narratives/organizational.md", size: 2390, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x1f, 0xe3, 0xc8, 0x59, 0x1b, 0x29, 0x43, 0xa4, 0xb0, 0x4d, 0xc6, 0x33, 0xb2, 0xa5, 0xb6, 0x76, 0x8a, 0xfe, 0xec, 0x36, 0xd5, 0x48, 0xf3, 0x33, 0xae, 0x2d, 0xa2, 0xff, 0x8e, 0x62, 0xad, 0x70}}
+	info := bindataFileInfo{name: "comply-soc2/narratives/organizational.md", size: 2378, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -418,8 +418,8 @@ func complySoc2NarrativesProductsMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/narratives/products.md", size: 895, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x98, 0x4b, 0x2, 0x14, 0xc, 0x56, 0xba, 0x6, 0x21, 0x60, 0xba, 0xf5, 0xcd, 0x88, 0xe0, 0xc, 0xd4, 0x1c, 0x75, 0x88, 0xbb, 0x79, 0xb7, 0x52, 0x1, 0xd5, 0x11, 0x98, 0xc, 0xff, 0x8a, 0x2f}}
+	info := bindataFileInfo{name: "comply-soc2/narratives/products.md", size: 895, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -438,8 +438,8 @@ func complySoc2NarrativesSecurityMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/narratives/security.md", size: 4059, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x9e, 0xc5, 0x43, 0x3d, 0xc5, 0x3e, 0x2, 0x8a, 0x6, 0xa2, 0x1e, 0xc5, 0x41, 0xe2, 0x58, 0xae, 0xfe, 0x45, 0xee, 0x9c, 0x3, 0xde, 0x21, 0x72, 0x4a, 0x35, 0xe0, 0x93, 0x92, 0x7a, 0xa2, 0xf2}}
+	info := bindataFileInfo{name: "comply-soc2/narratives/security.md", size: 4047, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -458,8 +458,8 @@ func complySoc2NarrativesSystemMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/narratives/system.md", size: 257, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xde, 0xa2, 0xbd, 0x74, 0x42, 0x57, 0x86, 0xe3, 0x76, 0x41, 0x45, 0x3e, 0xb8, 0x7, 0x5e, 0xd7, 0xcd, 0xf2, 0x30, 0xb, 0xe0, 0x45, 0xd4, 0x6c, 0xcf, 0x5c, 0x6e, 0xed, 0x6f, 0xb6, 0x7d, 0x32}}
+	info := bindataFileInfo{name: "comply-soc2/narratives/system.md", size: 257, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -478,8 +478,8 @@ func complySoc2PoliciesReadmeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/README.md", size: 71, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xde, 0x83, 0x38, 0x46, 0x74, 0xfc, 0xcf, 0xfd, 0xda, 0x13, 0x85, 0x58, 0x25, 0x1f, 0x3e, 0xad, 0xd7, 0x61, 0x42, 0x5b, 0x14, 0x52, 0x9f, 0xd5, 0x37, 0x9d, 0x89, 0xd2, 0x85, 0xe2, 0x7c, 0xe3}}
+	info := bindataFileInfo{name: "comply-soc2/policies/README.md", size: 71, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -498,8 +498,8 @@ func complySoc2PoliciesAccessMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/access.md", size: 2190, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xab, 0xe8, 0xc5, 0xe0, 0xad, 0x4c, 0x74, 0x6, 0x36, 0xba, 0xae, 0x9f, 0x2e, 0xac, 0x23, 0x90, 0xbe, 0x38, 0xed, 0xd9, 0xb7, 0xe0, 0x57, 0x7a, 0x22, 0xb2, 0xfc, 0xcd, 0x7b, 0xc2, 0xaf, 0xa4}}
+	info := bindataFileInfo{name: "comply-soc2/policies/access.md", size: 2178, mode: os.FileMode(420), modTime: time.Unix(1545087106, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -518,8 +518,8 @@ func complySoc2PoliciesApplicationMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/application.md", size: 8389, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xbc, 0x93, 0xf4, 0x9f, 0x96, 0x61, 0xf9, 0xc8, 0xa5, 0x21, 0x6f, 0x45, 0xd0, 0xa9, 0xfb, 0xe9, 0x17, 0x29, 0x43, 0xae, 0x69, 0x51, 0xcb, 0xe6, 0x91, 0x79, 0x13, 0x4f, 0x29, 0xd4, 0xb4, 0x3c}}
+	info := bindataFileInfo{name: "comply-soc2/policies/application.md", size: 8377, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -538,8 +538,8 @@ func complySoc2PoliciesAvailabilityMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/availability.md", size: 7031, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xd2, 0x4, 0xcf, 0xed, 0xd7, 0x7c, 0xcb, 0xc1, 0x2b, 0xcf, 0xa0, 0xe4, 0x7f, 0xfd, 0xb6, 0xa7, 0xd1, 0x1c, 0x22, 0x1a, 0x3b, 0x3a, 0x79, 0x45, 0x50, 0x90, 0x7d, 0x8, 0x10, 0x68, 0x4b, 0xd8}}
+	info := bindataFileInfo{name: "comply-soc2/policies/availability.md", size: 7019, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -558,8 +558,8 @@ func complySoc2PoliciesChangeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/change.md", size: 2805, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x90, 0x43, 0xd9, 0x38, 0x49, 0xb8, 0x4a, 0xb5, 0x85, 0xdb, 0xbb, 0x6a, 0x7, 0xf3, 0xc4, 0x20, 0x85, 0x44, 0xd3, 0x5f, 0xfc, 0xd, 0x31, 0x5a, 0xc0, 0x92, 0x7, 0xef, 0x2a, 0x59, 0x9, 0x80}}
+	info := bindataFileInfo{name: "comply-soc2/policies/change.md", size: 2793, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -578,8 +578,8 @@ func complySoc2PoliciesClassificationMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/classification.md", size: 14387, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x64, 0xce, 0xc7, 0x7, 0x87, 0xeb, 0x48, 0xad, 0xf3, 0xa9, 0x28, 0x98, 0x10, 0x66, 0xc5, 0x5f, 0x81, 0x61, 0x49, 0xa8, 0x96, 0x43, 0x61, 0x52, 0x32, 0x9e, 0xa6, 0x5, 0xaa, 0xbc, 0x96, 0xca}}
+	info := bindataFileInfo{name: "comply-soc2/policies/classification.md", size: 14376, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -598,8 +598,8 @@ func complySoc2PoliciesConductMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/conduct.md", size: 4501, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xcb, 0x45, 0xad, 0x46, 0x69, 0x8e, 0x7c, 0x12, 0x5f, 0xb5, 0xb4, 0x45, 0x8c, 0xe3, 0x95, 0xd3, 0x2d, 0x42, 0xb3, 0x98, 0x13, 0xe5, 0x20, 0x2d, 0xf8, 0xbb, 0x0, 0x6c, 0x7d, 0x72, 0xb3, 0x3a}}
+	info := bindataFileInfo{name: "comply-soc2/policies/conduct.md", size: 4492, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -618,8 +618,8 @@ func complySoc2PoliciesConfidentialityMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/confidentiality.md", size: 3665, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xb0, 0x8b, 0xaf, 0x8d, 0xcf, 0xd9, 0x0, 0x25, 0x7d, 0x67, 0x55, 0xc6, 0x4c, 0x2f, 0x3a, 0x57, 0xe4, 0x97, 0xf, 0x4e, 0x64, 0x38, 0xaa, 0xca, 0x92, 0x2f, 0xab, 0x84, 0xee, 0xad, 0x94, 0xc8}}
+	info := bindataFileInfo{name: "comply-soc2/policies/confidentiality.md", size: 3653, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -638,8 +638,8 @@ func complySoc2PoliciesContinuityMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/continuity.md", size: 5055, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xe4, 0x3c, 0x8c, 0x9e, 0xf8, 0x4b, 0xa8, 0xad, 0x93, 0x83, 0x80, 0x70, 0xe1, 0x42, 0x48, 0x8, 0xf1, 0x86, 0x4e, 0x14, 0x43, 0xb2, 0x27, 0x47, 0x98, 0x7e, 0xc2, 0x3a, 0x6, 0x47, 0xf4, 0x47}}
+	info := bindataFileInfo{name: "comply-soc2/policies/continuity.md", size: 5043, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -658,8 +658,8 @@ func complySoc2PoliciesCyberMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/cyber.md", size: 4817, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x8e, 0x31, 0xd8, 0xec, 0x68, 0x17, 0x2f, 0x36, 0xe8, 0x8a, 0xad, 0xb2, 0x2d, 0x6d, 0xea, 0x5e, 0x3f, 0x17, 0x4c, 0xb7, 0x86, 0x1a, 0x34, 0xb, 0x9e, 0x78, 0x1f, 0x2c, 0x97, 0x9a, 0x51, 0xb8}}
+	info := bindataFileInfo{name: "comply-soc2/policies/cyber.md", size: 4805, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -678,8 +678,8 @@ func complySoc2PoliciesDatacenterMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/datacenter.md", size: 3025, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xff, 0xe8, 0x82, 0xd9, 0xe8, 0xce, 0x7d, 0xfc, 0x5a, 0x67, 0x3a, 0x1d, 0x83, 0x67, 0x17, 0x25, 0x9f, 0x2f, 0x45, 0x4f, 0x3d, 0xba, 0x39, 0x3b, 0x3a, 0xe9, 0x47, 0x34, 0x61, 0x80, 0x45, 0xef}}
+	info := bindataFileInfo{name: "comply-soc2/policies/datacenter.md", size: 3014, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -698,8 +698,8 @@ func complySoc2PoliciesDevelopmentMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/development.md", size: 8945, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xa6, 0x27, 0x40, 0xed, 0x9b, 0x3f, 0xd2, 0x47, 0xcc, 0x20, 0x2b, 0xb6, 0xdb, 0x5, 0x4f, 0x8a, 0x63, 0xe4, 0x3c, 0x98, 0xf7, 0x37, 0x68, 0xcd, 0xbf, 0xdd, 0xcd, 0xb0, 0x5, 0x6, 0x16, 0xc9}}
+	info := bindataFileInfo{name: "comply-soc2/policies/development.md", size: 8933, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -718,8 +718,8 @@ func complySoc2PoliciesDisasterMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/disaster.md", size: 10328, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xfa, 0x9e, 0x6, 0xd5, 0xa1, 0x42, 0x39, 0xc5, 0xb8, 0x67, 0x4f, 0xb4, 0xc7, 0xd, 0x71, 0x96, 0x66, 0xa1, 0xae, 0xab, 0xf2, 0x25, 0xdf, 0xd7, 0xe5, 0x81, 0x27, 0xb7, 0x9a, 0xd8, 0x28, 0x31}}
+	info := bindataFileInfo{name: "comply-soc2/policies/disaster.md", size: 10315, mode: os.FileMode(420), modTime: time.Unix(1545087106, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -738,8 +738,8 @@ func complySoc2PoliciesEncryptionMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/encryption.md", size: 5393, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x15, 0xd2, 0x91, 0xfe, 0x92, 0x21, 0x3c, 0x45, 0x14, 0x25, 0x31, 0x6e, 0x5, 0x94, 0x69, 0x67, 0x8b, 0x9f, 0x59, 0xd4, 0x8, 0x72, 0x8, 0xdb, 0xb6, 0x27, 0xbf, 0x97, 0xc, 0x9a, 0x55, 0x55}}
+	info := bindataFileInfo{name: "comply-soc2/policies/encryption.md", size: 5381, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -758,8 +758,8 @@ func complySoc2PoliciesIncidentMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/incident.md", size: 8563, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x1d, 0xab, 0x68, 0x80, 0xa8, 0x6d, 0x86, 0x7, 0xc7, 0xf0, 0xa, 0x81, 0x4f, 0x97, 0x30, 0xf, 0x1d, 0x94, 0x48, 0x36, 0x62, 0x12, 0x20, 0x92, 0xab, 0x1, 0xc3, 0xa4, 0x5e, 0xb2, 0x7e, 0x11}}
+	info := bindataFileInfo{name: "comply-soc2/policies/incident.md", size: 8552, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -778,8 +778,8 @@ func complySoc2PoliciesInformationMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/information.md", size: 5371, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xb5, 0xe1, 0xb8, 0x53, 0xd8, 0x48, 0xba, 0x19, 0xdb, 0xf5, 0xf8, 0xb8, 0xc, 0x6, 0xaa, 0x47, 0x47, 0x30, 0x18, 0xf2, 0xe7, 0xc6, 0xaf, 0xee, 0xa9, 0xe3, 0x47, 0xc2, 0x31, 0x77, 0x21, 0xc3}}
+	info := bindataFileInfo{name: "comply-soc2/policies/information.md", size: 5359, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -798,8 +798,8 @@ func complySoc2PoliciesLogMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/log.md", size: 4319, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xe7, 0xce, 0xbb, 0xf9, 0xb0, 0xad, 0xd8, 0x57, 0x24, 0x28, 0xbf, 0x44, 0xa2, 0xe6, 0x30, 0x68, 0x89, 0x25, 0x72, 0xd6, 0xaa, 0x55, 0x4f, 0x23, 0xa4, 0x9f, 0x37, 0x97, 0xd3, 0x31, 0x7b, 0x1a}}
+	info := bindataFileInfo{name: "comply-soc2/policies/log.md", size: 4307, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -818,8 +818,8 @@ func complySoc2PoliciesMediaMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/media.md", size: 8831, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xe5, 0xa8, 0x8, 0x9e, 0x18, 0xd1, 0xc3, 0xa2, 0xa5, 0xce, 0xd3, 0x76, 0x14, 0xa0, 0xa1, 0x86, 0x95, 0xa9, 0xb3, 0x6e, 0xe5, 0x57, 0x16, 0xb1, 0xce, 0xd1, 0x8f, 0x7d, 0x16, 0x6c, 0xca, 0xd7}}
+	info := bindataFileInfo{name: "comply-soc2/policies/media.md", size: 8819, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -838,8 +838,8 @@ func complySoc2PoliciesOfficeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/office.md", size: 3939, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x2b, 0xa6, 0x2d, 0x89, 0xf1, 0x29, 0xa6, 0x13, 0x85, 0x6, 0x8b, 0x5b, 0xdb, 0x6a, 0xf0, 0x79, 0x93, 0xe, 0x59, 0x94, 0xef, 0x10, 0xda, 0xf, 0xcf, 0x6a, 0xec, 0xd4, 0xe, 0xb2, 0x3e, 0x1f}}
+	info := bindataFileInfo{name: "comply-soc2/policies/office.md", size: 3927, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -858,8 +858,8 @@ func complySoc2PoliciesPasswordMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/password.md", size: 1808, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x95, 0xd8, 0x8, 0x62, 0x6b, 0xf3, 0x85, 0x53, 0xba, 0x27, 0x8f, 0x8e, 0xbe, 0xaf, 0x8e, 0x0, 0xc3, 0x22, 0x98, 0xe1, 0x75, 0xb1, 0x12, 0x15, 0x22, 0x32, 0x2d, 0xfc, 0x6d, 0xb8, 0x50, 0x22}}
+	info := bindataFileInfo{name: "comply-soc2/policies/password.md", size: 1796, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -878,8 +878,8 @@ func complySoc2PoliciesPolicyMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/policy.md", size: 904, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x45, 0x55, 0x83, 0xf4, 0xf0, 0x2f, 0x19, 0x8d, 0xee, 0x32, 0x64, 0xc7, 0x1f, 0x97, 0x1, 0xa4, 0x9e, 0xf3, 0xb7, 0xe9, 0x84, 0x5e, 0x54, 0xda, 0xa, 0x8d, 0x8b, 0xe6, 0x55, 0xf9, 0xa, 0x42}}
+	info := bindataFileInfo{name: "comply-soc2/policies/policy.md", size: 892, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -898,8 +898,8 @@ func complySoc2PoliciesPrivacyMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/privacy.md", size: 358, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xf0, 0xf4, 0x25, 0x58, 0x96, 0xeb, 0x1f, 0x89, 0xe7, 0xa2, 0x7d, 0xd8, 0x53, 0x31, 0xc3, 0x22, 0x29, 0xc0, 0x82, 0xbd, 0x21, 0xb5, 0x71, 0x8d, 0xe3, 0xab, 0x15, 0x5f, 0x70, 0xd, 0x73, 0xc7}}
+	info := bindataFileInfo{name: "comply-soc2/policies/privacy.md", size: 346, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -918,8 +918,8 @@ func complySoc2PoliciesProcessingMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/processing.md", size: 222, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x68, 0x79, 0xfe, 0x93, 0xaa, 0xe0, 0x7c, 0xa9, 0xc0, 0xe7, 0x61, 0x80, 0x4d, 0x83, 0xa2, 0xa9, 0x9, 0x2e, 0xff, 0x39, 0x49, 0xfe, 0xc5, 0x78, 0xf0, 0x1e, 0xb, 0xf, 0x3b, 0x2f, 0xba, 0x60}}
+	info := bindataFileInfo{name: "comply-soc2/policies/processing.md", size: 210, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -938,8 +938,8 @@ func complySoc2PoliciesRemoteMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/remote.md", size: 4131, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xd8, 0x19, 0xe2, 0x73, 0xf0, 0x71, 0xda, 0x34, 0x20, 0x43, 0x11, 0x7d, 0x62, 0x32, 0x3, 0x5b, 0x65, 0x6a, 0xfa, 0xef, 0x4d, 0xed, 0x15, 0x93, 0xde, 0x7e, 0xb0, 0xe2, 0x6a, 0x7a, 0xf9, 0x85}}
+	info := bindataFileInfo{name: "comply-soc2/policies/remote.md", size: 4119, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -958,8 +958,8 @@ func complySoc2PoliciesRetentionMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/retention.md", size: 6822, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x6a, 0x19, 0x93, 0x6e, 0x46, 0xb4, 0xb6, 0xc, 0xae, 0x4, 0x5d, 0x37, 0x94, 0xc3, 0x75, 0x17, 0xc9, 0xe, 0xe7, 0xb1, 0x7, 0x3b, 0x4a, 0xba, 0x8b, 0x51, 0xde, 0xba, 0xb8, 0xd6, 0x6d, 0xcf}}
+	info := bindataFileInfo{name: "comply-soc2/policies/retention.md", size: 6811, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -978,8 +978,8 @@ func complySoc2PoliciesRiskMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/risk.md", size: 10500, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x33, 0xf9, 0x63, 0x43, 0x23, 0xb5, 0x8c, 0x26, 0xfb, 0x3e, 0x9c, 0xaa, 0x3d, 0x11, 0x58, 0xa, 0x69, 0xc2, 0x38, 0x4f, 0x0, 0xa5, 0x10, 0x73, 0x31, 0x56, 0x33, 0x35, 0x48, 0x94, 0x31, 0xd7}}
+	info := bindataFileInfo{name: "comply-soc2/policies/risk.md", size: 10486, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -998,8 +998,8 @@ func complySoc2PoliciesVendorMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/vendor.md", size: 3151, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x21, 0xb0, 0x8b, 0x11, 0xab, 0x13, 0x25, 0x31, 0xbe, 0xbd, 0xa6, 0x1, 0x9b, 0x93, 0x8e, 0x6e, 0x80, 0x7f, 0xcb, 0xb3, 0xd3, 0xb3, 0xbf, 0xab, 0x99, 0xd3, 0x6d, 0xe5, 0xe6, 0x3e, 0xba, 0x3d}}
+	info := bindataFileInfo{name: "comply-soc2/policies/vendor.md", size: 3139, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1018,8 +1018,8 @@ func complySoc2PoliciesWorkstationMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/policies/workstation.md", size: 1803, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x18, 0x85, 0xea, 0xdc, 0x61, 0xc8, 0x48, 0xf0, 0x94, 0xf2, 0x6, 0x79, 0x65, 0xe1, 0x7, 0x99, 0xb6, 0x9c, 0x5b, 0x9, 0x10, 0x41, 0x28, 0xb7, 0x3, 0xa7, 0x99, 0xd9, 0x13, 0x85, 0x5a, 0x80}}
+	info := bindataFileInfo{name: "comply-soc2/policies/workstation.md", size: 1791, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1038,8 +1038,8 @@ func complySoc2ProceduresReadmeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/procedures/README.md", size: 92, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x29, 0xe1, 0x42, 0x0, 0x8f, 0xef, 0x10, 0xb6, 0x2e, 0xc4, 0xff, 0xdf, 0x80, 0xa4, 0xc, 0x1d, 0x54, 0x1b, 0x74, 0xe6, 0x25, 0x33, 0x8a, 0xb, 0xf8, 0x1e, 0xb9, 0xe0, 0x62, 0x9f, 0x6f, 0xa}}
+	info := bindataFileInfo{name: "comply-soc2/procedures/README.md", size: 92, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1058,8 +1058,8 @@ func complySoc2ProceduresOffboardingMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/procedures/offboarding.md", size: 358, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x1f, 0x26, 0x7f, 0x4c, 0x2b, 0xd4, 0xe7, 0x82, 0x38, 0xd8, 0x2b, 0xc, 0x26, 0xa3, 0xad, 0x7f, 0x5c, 0x24, 0xdf, 0xc4, 0x74, 0xb7, 0x8f, 0x9e, 0x29, 0x69, 0xb1, 0x23, 0xff, 0x66, 0x2f, 0x2d}}
+	info := bindataFileInfo{name: "comply-soc2/procedures/offboarding.md", size: 358, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1078,8 +1078,8 @@ func complySoc2ProceduresOnboardingMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/procedures/onboarding.md", size: 495, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x9f, 0x60, 0xc, 0x91, 0xf3, 0xf3, 0x17, 0x24, 0x3a, 0x2e, 0xdd, 0x4e, 0xcb, 0x4c, 0xac, 0x53, 0x93, 0x22, 0xb9, 0x53, 0x74, 0xe8, 0xd3, 0x7f, 0x7f, 0xe3, 0x83, 0x2b, 0x5d, 0x1, 0x7d, 0x98}}
+	info := bindataFileInfo{name: "comply-soc2/procedures/onboarding.md", size: 495, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1098,8 +1098,8 @@ func complySoc2ProceduresPatchMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/procedures/patch.md", size: 380, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x4d, 0x13, 0xe5, 0xc7, 0x8f, 0xfe, 0xa5, 0x74, 0xe2, 0xbf, 0x82, 0x6c, 0x54, 0xd9, 0xf4, 0xd3, 0x92, 0xcd, 0x2a, 0xe, 0x60, 0x95, 0x4f, 0xe9, 0xf1, 0xe7, 0xe4, 0x85, 0xd, 0x6a, 0xb, 0xd2}}
+	info := bindataFileInfo{name: "comply-soc2/procedures/patch.md", size: 380, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1118,8 +1118,8 @@ func complySoc2ProceduresWorkstationMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/procedures/workstation.md", size: 1081, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x31, 0x77, 0x9, 0xae, 0x30, 0x25, 0xa6, 0xbf, 0xae, 0x48, 0x90, 0x8c, 0x6e, 0x40, 0x87, 0xa8, 0x57, 0x4d, 0xf5, 0x6e, 0x40, 0x60, 0x46, 0xc5, 0x29, 0x8b, 0xa2, 0xaf, 0x16, 0x80, 0x57, 0x45}}
+	info := bindataFileInfo{name: "comply-soc2/procedures/workstation.md", size: 1081, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1138,8 +1138,8 @@ func complySoc2StandardsReadmeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/standards/README.md", size: 282, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0x98, 0x30, 0x42, 0xeb, 0x1, 0x82, 0xaa, 0xb7, 0xb8, 0xa9, 0xc7, 0xc9, 0xf, 0xc1, 0x1d, 0xeb, 0x7, 0x95, 0x51, 0x11, 0x86, 0x39, 0xff, 0xfb, 0xb3, 0x49, 0x69, 0x47, 0x78, 0xfe, 0x1f, 0x42}}
+	info := bindataFileInfo{name: "comply-soc2/standards/README.md", size: 282, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1158,8 +1158,8 @@ func complySoc2StandardsTsc2017Yml() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/standards/TSC-2017.yml", size: 16308, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xb8, 0xb9, 0xda, 0x44, 0x27, 0xdf, 0x46, 0xfa, 0x9f, 0x91, 0xd9, 0x8a, 0xcd, 0xd5, 0x48, 0x5a, 0x21, 0xc8, 0xb0, 0x71, 0x83, 0x15, 0x7, 0xa0, 0xa9, 0x51, 0xb0, 0xb3, 0x56, 0xe9, 0x75, 0xde}}
+	info := bindataFileInfo{name: "comply-soc2/standards/TSC-2017.yml", size: 16305, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1178,8 +1178,8 @@ func complySoc2TemplatesDefaultLatex() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/templates/default.latex", size: 7649, mode: os.FileMode(0644), modTime: time.Unix(1579605011, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xbf, 0xb8, 0x54, 0xed, 0xe0, 0x8e, 0xe5, 0xde, 0x10, 0x5c, 0xc3, 0x8e, 0x6f, 0x2e, 0x18, 0x67, 0x6f, 0x81, 0x9d, 0x38, 0xfa, 0x1a, 0xf8, 0x4e, 0x9f, 0x1b, 0x1a, 0xab, 0x44, 0x69, 0x35, 0xb1}}
+	info := bindataFileInfo{name: "comply-soc2/templates/default.latex", size: 7649, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
@@ -1198,8 +1198,8 @@ func complySoc2TemplatesIndexAce() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "comply-soc2/templates/index.ace", size: 8250, mode: os.FileMode(0644), modTime: time.Unix(1579607022, 0)}
-	a := &asset{bytes: bytes, info: info, digest: [32]uint8{0xb2, 0xb1, 0x7d, 0x49, 0xff, 0x61, 0x53, 0xf9, 0x77, 0x7f, 0xc8, 0x6b, 0x92, 0x27, 0xa, 0x82, 0x3a, 0xbe, 0x97, 0x76, 0x2c, 0xe7, 0xf3, 0xbd, 0x20, 0x2b, 0x4d, 0x1a, 0xbb, 0x56, 0x8e, 0x50}}
+	info := bindataFileInfo{name: "comply-soc2/templates/index.ace", size: 7596, mode: os.FileMode(420), modTime: time.Unix(1545086630, 0)}
+	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
